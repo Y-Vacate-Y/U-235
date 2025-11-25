@@ -1,0 +1,130 @@
+body {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #000;
+    /*background-color: #121110;*/
+    /*color: #f2ff00;*/
+    color: #ff5118;
+}
+@font-face {
+    font-family:F2S;
+    src: url(font/Port.ttf);
+  }
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width:90%;
+    font-family: "Courier New";
+}
+
+
+@keyframes sway {
+    0%, 100%{ transform: rotate(-6deg);}
+    50%{ transform: rotate(6deg); }
+}
+
+.container p {
+    display:block;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2vw;
+    
+}
+
+.m1 p{
+    font-size: 1.5vw;
+    font-family: F1S;
+}
+
+@font-face {
+    font-family: F1S;
+    src: url(font/IPAMincho.ttf);
+  }
+
+
+
+
+
+.container h1 {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 5vw;
+    animation-name: radioGAGA;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    letter-spacing: 2px;
+    /*animation: shake 3s infinite; */
+    animation: sway 8s infinite;
+    transform-origin: 50% 100% 0;
+    font-family: F1S;
+    text-shadow: 0px 0px 4px #ff5118;
+    /*color: #f2ff00;
+    text-shadow: 0px 0px 4px #f2ff00; */
+}
+
+p {
+    font-size: 16px;
+    text-shadow: 0px 0px 3px #ff5118;
+    width:70%;
+}
+
+@keyframes radioGAGA {
+    0%   {text-shadow: 0px 0px 0px #ff5118;}
+  25%  {text-shadow: 0px 0px 4px #ff5118;}
+  50%  {text-shadow: 0px 0px 4px #ff5118;}
+  100% {text-shadow: 0px 0px 0px #ff5118;}
+}
+
+/*@keyframes shake {
+    0%   { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    25%  { transform: translate(-0.5px, -0.5px) rotate(-0.2deg); }
+    50%  { transform: translate(-0.5px, 0px) rotate(0.2deg); }
+    75%  { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    100% { transform: translate(0.5px, -0.5px) rotate(0.2deg); }
+  }
+
+*/
+
+.coms {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.coms img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/*body {
+    color: #f2ff00;
+    text-shadow: 0px 0px 4px #f2ff00 !important;
+} */
+
+footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: F1S;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.dyslexx{
+    position: absolute;
+}
+.dyslexx img{
+    display: block;
+    width: 10%;
+    padding-left: 40px;
+    position:fixed;
+}
